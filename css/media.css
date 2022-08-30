@@ -1,0 +1,534 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .stick-block-phone {
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        z-index: 777;
+        display: block;
+        
+    }
+
+    .btns-stick{
+        display: flex;
+        justify-content: center;  
+    }
+
+    /*-----------------------------navigation----------------------------*/
+
+    .nav-icon{
+        display: block;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .btn-head-mob{
+        display: block;
+    }
+
+    
+    .nav-menu{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: -100%;
+        left: 0;
+        opacity: 0.9;
+        padding-top: 30px;
+        transition: all 0.4s ease-in-out;
+        opacity:0;
+        
+    }
+
+    .nav-menu li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #626262;
+    }
+    .nav-menu li a:hover{
+        color: #646464;
+    }
+
+    .nav-menu{
+        gap: 45px;
+    }
+
+    .btn-head{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .active{
+        top: 0;
+        z-index: 999;
+        transition: 0,2s ease ;
+        transition: top 1,5s;
+        opacity: 100;
+
+    }
+
+    /*------------------------------PROMO---------------------------*/
+    
+    .banners-promo{
+        flex-wrap: wrap;
+    }
+
+    .banner{
+        width: 592px;
+    }
+
+
+    .container-appliance {
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .item {
+        width: 142px;
+
+    }
+    .tittle-appliance p {
+        padding: 0 100px;
+    }
+
+    .block{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+
+    .general-privel {
+        justify-content: center;
+    }
+
+    .privel-item {
+        width: 345px;
+
+    }
+
+    .block-content{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .services-container {
+        width: 45%;
+    }
+
+    .general-services {
+        justify-content: center;
+    }
+
+    .review {
+        width: 100%;
+    }
+
+
+    .ar{
+        width: 400px;
+    }
+
+    .container-areas{
+        gap: 8px;
+    }
+
+    .quality{
+        width: 100%;
+    }
+
+
+    .description-all-block{
+        width: 100%;
+    }
+
+    .sitebar{
+        width: 100%;
+    }
+
+    .block-appliance-general{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .banner-offerta-sitebar{
+        width: 100%;
+    }
+
+    .btns-price{
+        flex-direction: column;
+    }
+
+    .btns-price a{
+        width: 100%;
+
+    }
+
+    .photo-price {
+        height: 430px;
+
+    }
+
+    
+}
+
+
+
+@media screen and (min-device-width: 360px) and (max-device-width: 767px){
+    .stick-block-phone {
+        width: 100%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        z-index: 777;
+        display: block;
+        
+    }
+
+    .btns-stick{
+        display: flex;
+        justify-content: center;  
+    }
+
+    /*-----------------------------navigation----------------------------*/
+
+    .nav-icon{
+        display: block;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .btn-head-mob{
+        display: block;
+    }
+
+    
+    .nav-menu{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: -100%;
+        left: 0;
+        opacity: 0.9;
+        padding-top: 30px;
+        transition: all 0.4s ease-in-out;
+        opacity:0;
+        
+    }
+
+    .nav-menu li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #626262;
+    }
+    .nav-menu li a:hover{
+        color: #646464;
+    }
+
+    .nav-menu{
+        gap: 45px;
+    }
+
+    .btn-head{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .active{
+        top: 0;
+        z-index: 999;
+        transition: 0,2s ease ;
+        transition: top 1,5s;
+        opacity: 100;
+
+    }
+
+    /*------------------------------PROMO---------------------------*/
+    
+    .banners-promo{
+        flex-wrap: wrap;
+    }
+
+    .banner{
+        width: 592px;
+    }
+
+
+    .container-appliance {
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .item {
+        width: 45%;
+
+    }
+
+    .tittle-appliance p {
+        padding: 0;
+    }
+
+    .btns-appliance{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btns-appliance a{
+        width: 100%;
+    }
+
+    .btns-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .btns-content a{
+        width: 100%;
+
+    }
+
+    .btns-services{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btns-services a{
+        width: 100%;
+
+    }
+
+    .block{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+
+    .general-privel {
+        justify-content: center;
+    }
+
+    .privel-item {
+        width: 345px;
+
+    }
+
+    .block-content{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .services-container {
+        width: 100%;
+    }
+
+    .general-services {
+        justify-content: center;
+    }
+
+    .review {
+        width: 100%;
+    }
+
+    .btns-areas {
+        flex-direction: column;
+    }
+
+    .btns-areas a{
+        width: 100%;
+    }
+
+
+    .ar{
+        width: 400px;
+    }
+
+    .container-areas{
+        gap: 8px;
+    }
+
+    .quality{
+        width: 100%;
+    }
+
+    .block-ftr:nth-child(2){
+        display: none;
+    }
+
+    .block-ftr:nth-child(3){
+        display: none;
+    }
+
+    .news-block {
+        gap: 40px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+
+    .brands-proposition{
+        display: none;
+    }
+
+    .mobile-brand{
+        display: block;
+        padding-bottom: 80px;
+    }
+
+    .mobile-brand ol {
+        margin-top: 35px;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 20px;
+    }
+
+    .social{
+        display: none;
+    }
+
+    .general-testimonials{
+        padding-bottom: 80px;
+    }
+
+    .picture-about img{
+        width: 100%;
+    }
+
+    .block-depend{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .tittle-depend {
+        padding: 45px;
+    }
+    .text-depend {
+        padding: 45px;
+    }
+
+    .stick-block-phone {
+        display: block;
+        
+    }
+
+    .description-all-block{
+        width: 100%;
+    }
+
+    .sitebar{
+        width: 100%;
+    }
+
+    .block-appliance-general{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .banner-offerta-sitebar{
+        width: 100%;
+    }
+
+    .descr-refr-brands {
+        gap: 0px;
+        max-inline-size: 350px;
+        margin-inline: auto;
+    }
+
+    .brand-item-repair {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+
+    .btns-price{
+        flex-direction: column;
+    }
+
+    .btns-price a{
+        width: 100%;
+    }
+
+    .block-price {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    }
+
+    .price-descr h3{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+@media screen and (min-device-width: 360px) and (max-device-width: 560px){
+    .banner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .banner span {
+        line-height: 43px;
+    }
+
+    .banners-promo p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .offer-one{
+        text-align: center;
+    }
+
+    .tittle h1 {
+        font-size: 36px;
+        line-height: 54px;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+
+    .tittle strong {
+        font-size: 13px;
+        text-transform: uppercase;
+        line-height: 25px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    .slider {
+        padding-top: 170px;
+        padding-bottom: 90px;
+
+    }
+
+    .item {
+        width: 140px;
+    }
+
+
+
+}
